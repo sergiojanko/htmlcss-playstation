@@ -10,9 +10,10 @@ img
     max-width: 100%;
 }
 
-/* Jumbotron */
+/* Jumbotron 1*/
 
-#jumbotron-1
+#jumbotron-1,
+#jumbotron-2
 {
     height: 70vh;
     padding-top: 150px;
@@ -24,4 +25,14 @@ img
     background-position: center;
     background-size: cover;
 }
+#jumbotron-2 .jumbo-bg
+{
+    height: 100%;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#jumbotron-2 img
+
 
