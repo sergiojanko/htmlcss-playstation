@@ -5,17 +5,23 @@
     background-color: #000;
 }
 
+img
+{
+    max-width: 100%;
+}
+
 /* Jumbotron */
 
 #jumbotron-1
 {
     height: 70vh;
-    padding-top: 80px;
+    padding-top: 150px;
 }
-.jumbo-bg
+#jumbotron-1 .jumbo-bg
 {
     height: 100%;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
 }
+
