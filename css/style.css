@@ -34,5 +34,7 @@ img
 }
 
 #jumbotron-2 img
-
+{
+    max-width: 200px;
+}
 
