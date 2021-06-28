@@ -9,21 +9,27 @@ img
 {
     background-color: #000;
 }
+.bg-orange
+{
+    background-color: #CD3D0F;
+}
 
 .text-blue
 {
     color: #187FD2;
 }
 
-.jumbo
-{
-    /* height: 900px; */
-}
 .jumbo-bg
 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/* HEADER */
+header .bi
+{
+    font-size: 30px;
 }
 /* Jumbotron 1*/
 
