@@ -86,6 +86,16 @@ header .bi
     background-color: #161C3B;
 }
 
+#social img
+{
+    max-width: 200px;
+    cursor: pointer;
+}
+#social img:hover
+{
+    transform: scale(1.2);
+}
+
 footer
 {
     background-color: #00439C;
