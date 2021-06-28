@@ -1,41 +1,71 @@
 /* UTILS */
 
-.bg-black
-{
-    background-color: #000;
-}
 
 img
 {
     max-width: 100%;
 }
+.bg-black
+{
+    background-color: #000;
+}
 
+.text-blue
+{
+    color: #187FD2;
+}
+
+.jumbo
+{
+    /* height: 900px; */
+}
+.jumbo-bg
+{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 /* Jumbotron 1*/
 
-#jumbotron-1
+#returnal
 {
     padding-top: 150px;
 }
-#jumbotron-1 .jumbo-bg
+#returnal .jumbo-bg
 {
     height: 100%;
     background-image: url(../img/jumbo-bg.png);
-    background-position: center;
-    background-size: cover;
 }
-#jumbotron-2 .jumbo-bg
+#returnal .jumbo-bg
 {
-    height: 100%;
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: center;
-    background-size: cover;
+    padding-top: 300px;
+}
+#returnal .items-row img
+{
+    border-radius: 20px;
+}
+#returnal .items-row .active
+{
+    border: 1px solid #187FD2;
 }
 
-#jumbotron-2 img
+#playstation-5 .items-row .active
+{
+    border-bottom: 1px solid #187FD2;
+}
+#it-takes-two .jumbo-bg
+{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+#it-takes-two img
 {
     max-width: 200px;
 }
-
+#latest-games
+{
+    background-color: #1F1F1F;
+}
 #playstation-4 .card
 {
     border: 0;
@@ -48,4 +78,31 @@ img
 #ps-now
 {
     background-color: #161C3B;
+}
+
+footer
+{
+    background-color: #00439C;
+}
+
+footer .lang-globe
+{
+    width: 30px;
+    padding: 0px 5px;
+}
+
+footer ul li
+{
+    list-style-type: none;
+    padding: 5px;
+}
+footer ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .sie-logo
+{
+    max-width: 200px;
 }
