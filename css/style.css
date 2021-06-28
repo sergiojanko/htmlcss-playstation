@@ -12,10 +12,8 @@ img
 
 /* Jumbotron 1*/
 
-#jumbotron-1,
-#jumbotron-2
+#jumbotron-1
 {
-    height: 70vh;
     padding-top: 150px;
 }
 #jumbotron-1 .jumbo-bg
@@ -38,3 +36,16 @@ img
     max-width: 200px;
 }
 
+#playstation-4 .card
+{
+    border: 0;
+}
+
+#ps-plus
+{
+    background-color: #BEBCBB;
+}
+#ps-now
+{
+    background-color: #161C3B;
+}
